@@ -42,8 +42,10 @@ Use the [example CMakeLists.txt](/CMakeLists.txt) with changes:
 
 1. In projects settings set QT MSVC2019 64bit kit. 
 2. In CMake configuration select "Initial Configuration".
-3. Add new field with key "CMAKE_TOOLCHAIN_FILE" and value "C:/Path/to/vcpkg/../vcpkg/scripts/buildsystems/vcpkg.cmake" 
+3. Add new field with key `CMAKE_TOOLCHAIN_FILE` and value `C:/Path/to/vcpkg/../vcpkg/scripts/buildsystems/vcpkg.cmake` 
 4. Re-configure with Initial Parameters.
+![image_2023-09-19_222005102-fotor-20230919222351](https://github.com/ChazovAlexander/QT-tgbot-cpp/assets/106874694/4d754fb6-6440-476b-9fd8-b05ed173e048)
+
 
 
 

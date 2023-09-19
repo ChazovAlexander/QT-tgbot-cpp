@@ -1,5 +1,6 @@
 # QT-tgbot-cpp
 C++ QT GUI and Windows library for Telegram bot API
+[Author of tgbot-cpp library](https://github.com/reo7sp/tgbot-cpp)
 ## Library installation on Windows
 
 ### Download vcpkg and tgbot-cpp
@@ -40,7 +41,7 @@ Use the [example CMakeLists.txt](/CMakeLists.txt) with changes:
 
 ### With QT and CMake
 
-1. In projects settings set QT MSVC2019 64bit kit. 
+1. In project settings set QT MSVC2019 64bit kit. 
 2. In CMake configuration select "Initial Configuration".
 3. Add new field with key `CMAKE_TOOLCHAIN_FILE` and value `C:/Path/to/vcpkg/../vcpkg/scripts/buildsystems/vcpkg.cmake` 
 4. Re-configure with Initial Parameters.

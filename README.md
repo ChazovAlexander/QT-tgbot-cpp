@@ -1,5 +1,6 @@
 # QT-tgbot-cpp
 C++ QT GUI and Windows library for Telegram bot API
+
 [Author of tgbot-cpp library](https://github.com/reo7sp/tgbot-cpp)
 ## Library installation on Windows
 

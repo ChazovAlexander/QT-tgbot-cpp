@@ -59,7 +59,7 @@ void MainWindow::setupDatabase() {
 }
 void MainWindow::on_pushButton_clicked()
 {
-    TgBot::Bot bot("6523363035:AAEwoljJVaOOjh41_wUs5z4sqxgXTU3hOIg");
+    TgBot::Bot bot("Your Token Here");
     setupDatabase();
 
     copiedText = ui->textEdit->toPlainText();
